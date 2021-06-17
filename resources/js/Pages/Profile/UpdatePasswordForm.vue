@@ -44,7 +44,7 @@
     import JetActionMessage from '@/Jetstream/ActionMessage'
     import JetButton from '@/Jetstream/Button'
     import JetFormSection from '@/Jetstream/FormSection'
-    import JetInput from '@/Jetstream/Input'
+    import JetInput from '@/Components/Form/Input'
     import JetInputError from '@/Jetstream/InputError'
     import JetLabel from '@/Jetstream/Label'
 

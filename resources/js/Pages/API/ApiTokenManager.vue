@@ -171,7 +171,7 @@
     import JetDangerButton from '@/Jetstream/DangerButton'
     import JetDialogModal from '@/Jetstream/DialogModal'
     import JetFormSection from '@/Jetstream/FormSection'
-    import JetInput from '@/Jetstream/Input'
+    import JetInput from '@/Components/Form/Input'
     import JetCheckbox from '@/Jetstream/Checkbox'
     import JetInputError from '@/Jetstream/InputError'
     import JetLabel from '@/Jetstream/Label'

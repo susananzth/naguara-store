@@ -91,7 +91,7 @@
     import JetActionSection from '@/Jetstream/ActionSection'
     import JetButton from '@/Jetstream/Button'
     import JetDialogModal from '@/Jetstream/DialogModal'
-    import JetInput from '@/Jetstream/Input'
+    import JetInput from '@/Components/Form/Input'
     import JetInputError from '@/Jetstream/InputError'
     import JetSecondaryButton from '@/Jetstream/SecondaryButton'
 

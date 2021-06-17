@@ -13,6 +13,11 @@
             </div>
 
             <div class="mt-4">
+                <jet-label for="username" value="Username" />
+                <jet-input id="username" type="text" class="mt-1 block w-full" v-model="form.username" required autofocus autocomplete="username" />
+            </div>
+
+            <div class="mt-4">
                 <jet-label for="email" value="Email" />
                 <jet-input id="email" type="email" class="mt-1 block w-full" v-model="form.email" required />
             </div>
@@ -56,7 +61,7 @@
     import JetAuthenticationCard from '@/Jetstream/AuthenticationCard'
     import JetAuthenticationCardLogo from '@/Jetstream/AuthenticationCardLogo'
     import JetButton from '@/Jetstream/Button'
-    import JetInput from '@/Jetstream/Input'
+    import JetInput from '@/Components/Form/Input'
     import JetCheckbox from "@/Jetstream/Checkbox";
     import JetLabel from '@/Jetstream/Label'
     import JetValidationErrors from '@/Jetstream/ValidationErrors'
@@ -76,6 +81,7 @@
             return {
                 form: this.$inertia.form({
                     name: '',
+                    username: '',
                     email: '',
                     password: '',
                     password_confirmation: '',
